@@ -1,0 +1,12 @@
+import random
+iTotal=0
+iAvg=0
+rand = []
+for i in range(10000000):
+    num=random.randint(0,100)
+    rand.append(num)
+    iTotal=iTotal+num
+#print (rand)
+print (iTotal)
+print (iTotal/10000000)
+
